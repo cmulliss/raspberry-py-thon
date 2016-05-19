@@ -11,27 +11,34 @@ for x in range(1, throws):
     print(total)
 
 
+
+    if total <= 11 and total >= 8:
+        print('Not bad, you threw: ', total)
+    elif total >10:
+        print('Good throw!')
+    else:
+        print('Oh, bad luck! You threw: ', total)
     if throwOne == throwTwo:
-        print('Double thrown')
-    elif total == 11:
+        print('Double thrown, you threw 2 ',throwOne,'\'s')
+    if total == 11:
         print('Eleven thrown')       
-    elif total == 10:
+    if total == 10:
         print('Ten thrown')
-    elif total == 9:
+    if total == 9:
         print('Nine thrown')       
-    elif total == 8:
+    if total == 8:
         print('Eight thrown')       
-    elif total == 7:
+    if total == 7:
         print('Seven thrown')
-    elif total == 6:
+    if total == 6:
         print('Six thrown')
-    elif total == 5:
+    if total == 5:
         print('Five thrown')
-    elif total == 4:
+    if total == 4:
         print('Four thrown')
-    elif total == 3:
+    if total == 3:
         print('Three thrown')
-    elif total == 2:
+    if total == 2:
         print('Two thrown')
 print('That\'s all for now!')
     
